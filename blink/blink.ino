@@ -1,4 +1,4 @@
-#define PIN_OUTPUT 13
+#define PIN_OUTPUT 12
 
 void setup(void)
 {
@@ -8,9 +8,9 @@ void setup(void)
 void loop(void)
 {
   digitalWrite(PIN_OUTPUT, HIGH);
-  delay(1);
+  delay(1000);
   digitalWrite(PIN_OUTPUT, LOW);
-  delay(1);
+  delay(1000);
 }
 
 /* vim: set sw=2 et: */
